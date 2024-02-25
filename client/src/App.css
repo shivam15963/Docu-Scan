@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  color: #2B8FF3;
+}
+
+h2 {
+  color: #5f6368;
+}
+
+.chat-container {
+  max-width: 600px;
+  background: #D2D8E5;
+  padding: 1.875rem 2.5rem 0.9375rem;
+    border-radius: 0.9375rem;
+  margin: 20px auto;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  margin: 10px;
+}
+
+.user-message {
+  justify-content: flex-start;
+}
+
+.bot-message {
+  justify-content: flex-end;
+}
+
+.user-message .bubble {
+  background-color: #5f6368;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+.bot-message .bubble {
+  background-color: #814dff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-family: runda,sans-serif!important;
+    font-weight: 700!important;
+    border-radius: 30px;
+    min-width: 110px;
+    height: 40px;
+}
+
+button {
+  background: #814dff!important;
+  color: #fff;
+  border: 1px solid #814dff!important;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+button:hover {
+  opacity: 90%
+}
